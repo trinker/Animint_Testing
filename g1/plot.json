@@ -1,0 +1,116 @@
+{
+ "geoms": {
+ "geom1_density_plot1": {
+ "geom": "ribbon",
+"classed": "geom1_density_plot1",
+"aes": {
+ "x": "y",
+"group": "group",
+"fill": "group" 
+},
+"params": {
+ "na.rm": false,
+"alpha":    0.5 
+},
+"subset_order": [],
+"types": {
+ "fill": "rgb",
+"y": "numeric",
+"x": "numeric",
+"density": "numeric",
+"scaled": "numeric",
+"count": "numeric",
+"group": "integer",
+"PANEL": "integer",
+"ymin": "numeric",
+"ymax": "numeric" 
+},
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [
+ "group" 
+] 
+} 
+},
+"selectors": [],
+"plots": {
+ "plot1": {
+ "strips": "",
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [      1 ],
+"height_proportion": [      1 ],
+"xdisplace": [      0 ],
+"ydisplace": [      0 ] 
+},
+"geoms": [
+ "geom1_density_plot1" 
+],
+"axis1": {
+ "x": [ 0.11479, 0.43326, 0.75174 ],
+"xlab": [ "0", "10", "20" ],
+"xrange": [ -3.6042, 27.795 ],
+"xline": true,
+"xticks": true,
+"y": [ 0.045455, 0.37708, 0.7087 ],
+"ylab": [ "0.0", "0.2", "0.4" ],
+"yrange": [ -0.027413, 0.57568 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "x",
+"ytitle": "density",
+"xlabs": [ "0", "10", "20" ],
+"ylabs": [ "0.0", "0.2", "0.4" ],
+"legend": {
+ "Distribution": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Distribution",
+"entries": [
+ {
+ "polygonfill": "#619CFF",
+"polygonweight":      1,
+"polygoncolour": "#000000",
+"polygonalpha":    0.5,
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Gamma(2,1/3)" ] 
+},
+{
+ "polygonfill": "#00BA38",
+"polygonweight":      1,
+"polygoncolour": "#000000",
+"polygonalpha":    0.5,
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "N(0,1)" ] 
+},
+{
+ "polygonfill": "#F8766D",
+"polygonweight":      1,
+"polygoncolour": "#000000",
+"polygonalpha":    0.5,
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "N(3,1)" ] 
+} 
+] 
+} 
+},
+"title": "geom_density",
+"options": {
+ "width":    400,
+"height":    400 
+} 
+} 
+} 
+}
